@@ -1,4 +1,4 @@
-# Deep Decoder
+# Deep Decoder ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ameroyer/tf_deep_decoder.svg)
 The code is based on the official `Pytorch` implementation of Deep Decoders [available here](https://github.com/reinhardh/supplement_deep_decoder).
 
 The repository contains a `Tensorflow` implementation of **Deep Decoders**, as described in the paper *Deep Decoder: Concise Image Representations from Untrained Non-convolutional Networks*, Reinhard Heckel and Paul Hand, ICLR 2019. 
