@@ -117,6 +117,8 @@ def fit(net,
             mse_wrt_truth = [0.] * num_iter
             sess.run(tf.global_variables_initializer())            
             if find_best:
+                if not os.path.exists('log'):
+                    os.makedirs('log/')
                 save_log_dir = os.path.join('log', datetime.now().strftime("%m-%d_%H-%M"))
                 if verbose:
                     print('Save net in', save_log_dir)
